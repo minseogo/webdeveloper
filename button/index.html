@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            display: flex;
+            height: 100vh; /*vw*/ 
+            align-items: center;
+            justify-content: center;}
+
+        button{
+            background-color: transparent;
+            color: black;
+            font-size: 2rm;
+            padding: 0.5rem 2rem;
+            border: 3px solid black;
+            transition: 0.5s; /*애니메이션 효과와 같은것 ( 마우스 커서를 가져다 놓으면 
+                                     기입해놓은 초수에 따라서 슬로우모션같이 변함*/
+            border-radius: 100px;} /*50% 제외하고는 픽셀로 기입하기*/
+
+            button:hover{
+                background-color: black;
+                color: white;
+                border-radius: 0;
+            }
+
+    /* body{display: flex; height: 100vh; */
+
+        /* display: flex 는 엄마 태그한테 입히는것
+        100vh : 전체화면 크기
+        50vh : 화면의 절반 */
+    </style>
+</head>
+
+
+
+<body>
+    <button>HOVER</button>
+</body>
+</html>
